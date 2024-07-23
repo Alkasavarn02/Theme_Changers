@@ -1,0 +1,52 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 6rem;
+}
+
+.buttons {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem
+}
+
+.Btn {
+    display: block;
+    width: 100px;
+    height: 40px;
+    border: 2px solid black;
+    border-radius: 10px;
+    text-align: center;
+    color: black;
+    font-size: 20px;
+}
+
+.Btn:active {
+    box-shadow: 2px 2px 5px #414141;
+}
+
+#blue {
+    background-color: blue;
+}
+#green {
+    background-color: green;
+}
+#red {
+    background-color: red;
+}
+#pink {
+    background-color: pink;
+}
+#yellow {
+    background-color: yellow;
+}
+#grey {
+    background-color: gray;
+}
